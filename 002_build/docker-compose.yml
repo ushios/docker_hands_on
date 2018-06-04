@@ -1,0 +1,7 @@
+version: '3'
+services:
+  alpine-git:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: ["git"]
